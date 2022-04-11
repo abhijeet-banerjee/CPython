@@ -1,0 +1,12 @@
+
+1. Class methods take decorator @classmethod while
+   static methods take decorator @staticmethod. Class methods do compulsarily
+   has cls as the first parameter, while static method has no such things
+
+2.Class methods have access to class state's but static methods do not, as static methods
+do not know anything about the class.
+
+3. Class Methods are generally used as Factory methods, that is, returning class objs.
+
+4. Static methods are used as utility methods
+
